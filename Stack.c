@@ -63,31 +63,6 @@ int main()
 }
 	
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-	/*PNODE Head=NULL;
-
-	Push(&Head,10);
-	Push(&Head,20);
-	//Push(&Head,20);
-	Display(Head);
-	printf("\n");
-	Pop(&Head);
-	Display(Head);
-	Pick(&Head);*/
-	
-
 void Push(PPNODE First,int No)
 {
 	
