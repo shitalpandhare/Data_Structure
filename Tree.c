@@ -39,22 +39,18 @@ int main()
 				printf("Enter the Node Value: ");
 				scanf("%d",&No);
 				Add(&Head,No);
-				//Display(Head);
 				break;
 	
 	
 			case 2:
 				Preorder(Head);
-				//Display(Head);	
 				break;
 
 			case 3:
 				Inorder(Head);
-				//Display(Head);	
 				break;
 			case 4:
-				Postorder(Head);
-				//Display(Head);	
+				Postorder(Head);	
 				break;
 			
 		}
