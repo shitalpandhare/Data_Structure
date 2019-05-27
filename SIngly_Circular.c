@@ -98,17 +98,6 @@ int main()
 
 
 
-	/*
-	Insert_First(&Head,&Tail,10);
-	Insert_First(&Head,&Tail,20);
-	Insert_First(&Head,&Tail,30);
-	Insert_First(&Head,&Tail,40);
-	 Insert_Last(&Head,&Tail,5);
-	int cnt=Count(Head,Tail);
-	printf("%d\t",cnt);
-	Display(Head,Tail);*/
-
-
 void  Insert_First(PPNODE First,PPNODE Last,int No)
 {
 	PNODE NewNode =NULL;
