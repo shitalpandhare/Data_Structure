@@ -102,28 +102,6 @@ int main()
 
 
 
-	/*Insert_First(&Head,10);
-	Insert_First(&Head,20);
-	Insert_Last(&Head,30);
-	Insert_Last(&Head,40);
-
-	
-	Insert_Pos(&Head,2,60);
-	Insert_Pos(&Head,3,50);
-
-	Delete_First(&Head);
-	Delete_Last(&Head);
-	
-	Insert_Last(&Head,50);
-	int cnt=Count(Head);
-	printf("Count is:%d\t",cnt);
-	Display(Head);
-	printf("\n");
-	Delete_Pos(&Head,3);	
-	Display(Head);*/
-
-
-
 void Insert_First(PPNODE First,int No)
 {
 	PNODE NewNode=NULL;
