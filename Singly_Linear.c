@@ -93,29 +93,7 @@ int main()
 	}while(choise!=7);			
 }
 
-	/*PNODE Head=NULL;
-
-	Insert_First(&Head,11);
-	Insert_First(&Head,21);
-	Insert_First(&Head,31);
-	Insert_Last(&Head,10);	
-	Display(Head);
-	printf("\n");
-	Insert_Pos(&Head,45,1);
-	Display(Head);
-	Delete_First(&Head);
-	printf("\n After Delete\t");
-	Display(Head);
-	Delete_Last(&Head);
-	printf("\n After Delete LAST\t");
-	Display(Head);
-
-	Insert_Last(&Head,100);
-	Delete_Pos(&Head,2);
-	printf("\n After Delete POS\t");
-	Display(Head);*/
-
-
+	
 
 void Insert_First(PPNODE First,int No)
 {
